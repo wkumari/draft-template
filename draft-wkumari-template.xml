@@ -46,9 +46,14 @@
     <abstract>
       <t>This is my standard ID Template.</t>
 
-      <t>[ Ed note: Text inside square brackets ([]) is additional background information, answers to freqently asked questions, general musings, etc.  They will be removed before publication.]</t>
+      <t>[ Ed note: Text inside square brackets ([]) is additional background
+      information, answers to freqently asked questions, general musings, etc.
+      They will be removed before publication.]</t>
 
-      <t>[ This document is being collaborated on in Github at: https://github.com/__URL__. The most recent version of the document, open issues, etc should all be available here. The authors (gratefully) accept pull requests ]</t>
+      <t>[ This document is being collaborated on in Github at:
+      https://github.com/__URL__. The most recent version of the document,
+      open issues, etc should all be available here. The authors (gratefully)
+      accept pull requests ]</t>
     </abstract>
   </front>
 
@@ -64,9 +69,10 @@
 
       <section title="Requirements notation">
         <t>The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-        "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
-        document are to be interpreted as described in <xref
-        target="RFC2119"/>.</t>
+        "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
+        "OPTIONAL" in this document are to be interpreted as described in BCP
+        14 <xref target="RFC2119"/> <xref target="RFC8174"/> when, and only
+        when, they appear in all capitals, as shown here.</t>
       </section>
     </section>
 
@@ -94,6 +100,8 @@
     <references title="Normative References">
       <?rfc include='reference.RFC.2119'?>
 
+      <?rfc include='reference.RFC.8174'?>
+
       <reference anchor="IANA.AS_Numbers"
                  target="http://www.iana.org/assignments/as-numbers">
         <front>
@@ -110,13 +118,14 @@
     </references>
 
     <references title="Informative References">
-      <?rfc include='reference.I-D.draft-ietf-sidr-iana-objects-03.xml'?>
+      <?rfc include='reference.I-D.'?>
     </references>
 
     <section title="Changes / Author Notes.">
       <t>[RFC Editor: Please remove this section before publication ]</t>
 
       <t>From -00 to -01</t>
+
       <t><list style="symbols">
           <t>Nothing changed in the template!</t>
         </list></t>
